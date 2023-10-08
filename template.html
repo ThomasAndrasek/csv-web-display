@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{TITLE}</title>
+</head>
+<body>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #271e15;
+    }
+
+    h1 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    table {
+        background-color: #3c332a;
+        padding: 10px 20px;
+        border-radius: 18px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    table tr th {
+        color: #ffffff;
+        font-size: 1.25em;
+        padding: 0 20px 0 20px;
+        text-align: left;
+    }
+
+    table tr td {
+        color: #98928d;
+        padding: 0 20px 0 20px;
+        max-inline-size: 500px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    table tr td a {
+        text-decoration: none;
+        color: #98928d;
+    }
+
+    .num-id {
+        text-align: right;
+    }
+</style>
+    <h1>{TITLE}</h1>
+    <table>
+        {HEADER}
+        {ROWS}
+    </table>
+</body>
+</html>
+
